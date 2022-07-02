@@ -38,7 +38,7 @@ const ContactMe = () => {
       const setContactInfo = async () => {
         try {
           const resp = await axios.post(
-            "https://portfoliodarshan.herokuapp.com/api/contact",
+            "https://portfoliobackned.herokuapp.com/api/contact",
             value
           );
           if (resp) {
